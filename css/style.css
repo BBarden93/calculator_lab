@@ -1,1 +1,35 @@
 /* Style your calculator */
+#calculator{
+    height:450px;
+    width:330px;
+    border: 2px solid black;
+    text-align: center;
+}
+#output {
+    width:310px;
+    height:180px;
+    border:2px solid black;
+    display:inline-block;
+    vertical-align: top;
+}
+.operators {
+    width:70px;
+    height: 30px;
+    margin:20px 2px 20px 2px;
+    background:orange;
+    display:inline-block;
+}
+.buttons {
+    height: 30px;
+    width:65px;
+    display: inline-block;
+}
+#equals {
+    height: 30px;
+    width:60px;
+    background: red;
+    display:inline-block;
+}
+#grid {
+    width:310px;
+}
